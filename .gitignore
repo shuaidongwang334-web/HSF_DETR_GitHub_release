@@ -8,3 +8,6 @@ __pycache__/
 runs/
 *.cache
 *.log
+
+# Model weights
+weights/*.pt
