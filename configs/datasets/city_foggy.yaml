@@ -1,0 +1,12 @@
+# Foggy Cityscapes dataset configuration for HSF-DETR
+# Change the path to your local Foggy Cityscapes root directory.
+# The official split should be used without additional random partitioning.
+path: /path/to/city_foggy/0.02
+train: images/train
+val: images/val
+test: images/test
+
+# Please keep the class order consistent with your converted labels.
+# Example for common Cityscapes-style detection classes:
+nc: 8
+names: ['person', 'rider', 'car', 'truck', 'bus', 'train', 'motorcycle', 'bicycle']

@@ -1,0 +1,9 @@
+# RTTS dataset configuration for local training/evaluation.
+# Change this path to your RTTS root directory.
+path: /path/to/rtts_data
+train: images/train
+val: images/val
+test: images/test
+
+nc: 5
+names: ['bicycle', 'bus', 'car', 'motorbike', 'person']
