@@ -96,6 +96,10 @@ pip install -e .
 
 The original images of RTTS and Foggy Cityscapes are not included in this repository. Please download them from their official sources and organize them in YOLO format.
 
+**Official download links:**
+- **RTTS**: [RESIDE benchmark (RESIDE-beta)](https://sites.google.com/view/reside-dehaze-datasets/reside-v0) -- RTTS is included in the RESIDE-beta subset.
+- **Foggy Cityscapes**: [Cityscapes Dataset](https://www.cityscapes-dataset.com/) (registration required) -- Download "Foggy Cityscapes" from the downloads page. Also available at [SFSU Synthetic Fog](https://people.ee.ethz.ch/~csakarid/SFSU_synthetic/).
+
 ### RTTS
 
 RTTS was divided according to image sequence organization. No random seed was used for dataset partitioning. To ensure reproducibility, this package provides the final split files and label files used in the experiment.
