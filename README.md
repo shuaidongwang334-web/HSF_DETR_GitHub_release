@@ -80,10 +80,14 @@ GCConv is used as a weak-feature-preserving downsampling layer in the RT-DETR ne
 Create an environment and install dependencies:
 
 ```bash
-conda create -n hsf_detr python=3.10 -y
+conda create -n hsf_detr python=3.8 -y
 conda activate hsf_detr
 pip install -r requirements.txt
-pip install pycocotools prettytable tidecv
+
+**Note:** PyTorch 2.3.0 + CUDA 12.1 was used in our experiments. The equirements.txt uses a wide range (	orch>=1.8.0); for exact reproducibility, install the matching version:
+`ash
+pip install torch==2.3.0 torchvision==0.18.0
+`${nl}pip install pycocotools prettytable tidecv
 ```
 
 Install the local package in editable mode:

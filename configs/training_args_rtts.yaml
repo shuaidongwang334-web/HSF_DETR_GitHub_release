@@ -1,6 +1,6 @@
 task: detect
 mode: train
-model: ultralytics/cfg/model/rtdetr-HAFB-2-ETB-GCConv.yaml
+model: ultralytics/cfg/models/rt-detr/rtdetr-HSF-DETR.yaml
 data: dataset/rtts.yaml
 epochs: 250
 patience: 30
@@ -12,7 +12,7 @@ cache: false
 device: 0,1
 workers: 4
 project: runs/train
-name: exp_r18_b16_ETB_GCConv_HAFB2_1
+name: exp_r18_b16_HSF_DETR
 exist_ok: false
 pretrained: true
 optimizer: AdamW
@@ -95,4 +95,4 @@ mixup: 0.0
 copy_paste: 0.0
 cfg: null
 tracker: botsort.yaml
-save_dir: runs/train/exp_r18_b16_ETB_GCConv_HAFB2_1
+save_dir: runs/train/exp_r18_b16_HSF_DETR
