@@ -271,15 +271,14 @@ same split and same evaluation scripts
 
 ## 9. Weights
 
-The uploaded package includes:
+The trained model weights are available on the GitHub Releases page.
 
-```text
-weights/best.pt
-weights/last.pt
-```
+**Download:** https://github.com/shuaidongwang334-web/HSF_DETR_GitHub_release/releases
 
-If GitHub file size limits prevent direct upload, place the weights in a GitHub Release, Google Drive, OneDrive, Baidu Netdisk, or another public storage service, and provide the download link in this section.
+After downloading, place the files in the weights/ directory:
 
+- weights/best.pt
+- weights/last.pt
 ## 10. Reproducibility notes
 
 - RTTS split: sequence-based/manual split; no random seed was used during partitioning.
